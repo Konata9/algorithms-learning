@@ -1,4 +1,4 @@
-// 递归练习--递归求和
+// 递归练习--递归求和
 function recurSum(arr) {
   if (arr.length === 1) {
     // 分解为最简单的情况，即只有一个元素的数组
@@ -41,7 +41,7 @@ function recurGetMax(arr) {
 var arr3 = [2, 5, 11, 66, 0, -5, 3, -7, 47, 25]
 console.log(recurGetMax(arr3))
 
-// 二分查找递归版，把target 位置换一下，可以少两个参数
+// 二分查找递归版，把target 位置换一下，可以少两个参数
 function recurBinary(arr, low = 0, heigh = arr.length - 1, target) {
   var mid = Math.floor((low + heigh) / 2)
   console.log(`current: ${arr[mid]}`)
@@ -49,7 +49,7 @@ function recurBinary(arr, low = 0, heigh = arr.length - 1, target) {
   if (arr[mid] === target) {
     return arr[mid]
   } else if (arr[mid] > target) {
-    // 中间值大于 targegt 切掉数组后面部分
+    // 中间值大于 targegt 切掉数组后面部分
     arr.splice(mid, arr.length - mid)
     return recurBinary(arr, 0, arr.length, target)
   } else if (arr[mid] < target) {

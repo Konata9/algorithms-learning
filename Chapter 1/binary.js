@@ -13,7 +13,7 @@ function binary_search(arr, target) {
 
   while (low <= heigh) {
     console.log(`range: ${arr[low]} --- ${arr[heigh]}`)
-    // 下标的取值范围
+    // 下标的取值范围
     var mid = Math.floor((low + heigh) / 2)
     console.log(`current mid: ${mid}`)
 
@@ -22,7 +22,7 @@ function binary_search(arr, target) {
       console.log(`Finish total step: ${step}`)
       return target
     } else if (arr[mid] > target) {
-      // height 和 low 的加减需要注意 T T
+      // height 和 low 的加减需要注意 T T
       heigh = mid - 1
       step++
     } else if (arr[mid] < target) {

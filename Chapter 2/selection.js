@@ -4,7 +4,7 @@ function getMin(arr) {
   var min = arr[0]
   var minIndex = 0
 
-  // 数组的循环，从 n --> 1 次
+  // 数组的循环，从 n --> 1 次
   arr.forEach((item, index) => {
     step++
     if (item < min) {
@@ -22,7 +22,7 @@ function getMin(arr) {
 function selection(arr) {
   var res = []
 
-  // 循环数组的长度是动态变化的
+  // 循环数组的长度是动态变化的
   while (arr.length > 0) {
     step++
     var { min, minIndex } = getMin(arr)

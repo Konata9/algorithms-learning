@@ -1,4 +1,4 @@
-// 阶乘函数，最基本的递归
+// 阶乘函数，最基本的递归
 
 function factorial(num) {
   if (num === 1) {
