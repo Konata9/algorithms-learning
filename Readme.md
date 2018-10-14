@@ -8,3 +8,6 @@
 - [x] 第二章：选择排序
 - [x] 第三章：递归
 - [ ] 第四章：快速排序
+
+### Github 中 markdown 乱码问题解决方案
+https://github.com/lq782655835/blogs/issues/2
